@@ -1,0 +1,21 @@
+.font-size-widget {
+	top: -20px;
+	right: 0px;
+	position: absolute;
+	display: inline-block;
+}
+
+.fsw-size-up,
+.fsw-size-down {
+	width: 15px;
+	height: 15px;
+	padding: 5px;
+	font-weight: bold;
+	border: 1px solid #000000;
+}
+
+.fsw-size-up:hover,
+.fsw-size-down:hover {
+	cursor: pointer;
+	background-color: #ffcc00;
+}

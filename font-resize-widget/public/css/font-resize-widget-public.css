@@ -1,0 +1,33 @@
+.font-size-widget {
+	width: 104px;
+	float: right;
+	margin-top: -20px;
+}
+
+.fsw-large-font {
+	font-size: x-large !important;
+	line-height: normal !important;
+}
+.fsw-largest-font {
+	font-size: xx-large !important;
+	line-height: normal !important;
+}
+
+.fsw-default,
+.fsw-up-one,
+.fsw-up-two {
+	float: left;
+	width: 34px;
+	height: 34px;
+	line-height: 34px !important;
+	text-align: center;
+	border: 1px solid #cccccc;
+}
+
+.fsw-size-up:hover,
+.fsw-size-down:hover {
+	cursor: pointer;
+	background-color: #bee6e6;
+}
+
+.fsw-background-color { background-color: #bee6e6; }
